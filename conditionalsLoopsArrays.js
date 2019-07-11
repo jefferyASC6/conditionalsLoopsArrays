@@ -55,6 +55,11 @@ if (catchAttempt > catchChance){
 
 // ==================================================================
 console.log("Challenge #5:");
+
+if(roster.length < 6){
+    roster.push("");
+}
+console.log(roster)
 // If the number of pokemon in the "roster" array is less than 6
 // Add an empty string to the "roster" array (signifying an empty
 // spot)
@@ -70,6 +75,15 @@ const enemyAttackType = elements[Math.floor(Math.random()*elements.length)];
 
 // (assuming you have a "water" pokemon...)
 
+if (enemyAttackType = "plant"){
+    console.log("It's super effective!");
+}else if (enemyAttackType = "fire"){
+    console.log("It's not very effective!");
+}else if (enemyAttackType = "water"){
+    console.log("Nothing special happened...")
+}else{
+    console.log("Error, this isn't supposed to be seen!");
+}
 // If the "enemyAttackType" is "plant", console.log "It's super effective!"
 // Else if the "enemyAttackType" is "fire", console.log "It's not very effective!"
 // Else if the "enemyAttackType" is "water", console.log "Nothing special happened!"
