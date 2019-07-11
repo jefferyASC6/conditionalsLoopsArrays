@@ -13,7 +13,7 @@ console.log(roster.length);
 // ==================================================================
 console.log("Challenge #2:");
 
-roster.push(process.argv[0]);
+roster.push(process.argv[2]);
 console.log(roster);
 // push the user's first command line argument to the end of the 
 // "roster" array (ideally, it's a pokemon's name!)
@@ -22,7 +22,7 @@ console.log(roster);
 // ==================================================================
 console.log("Challenge #3:");
 
-roster.pop(process.arv[1]);
+roster.pop(process.arv[3]);
 console.log(roster);
 // remove the item from the "roster" array that corresponds to 
 // the user's second command line argument
